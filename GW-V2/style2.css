@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("fonts/bpg_nino_mtavruli_bold.ttf") format("truetype");
+}
+
+body, h1, h2, p, a {
+  font-family: "MyCustomFont", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 150px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.site-title a {
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-item a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: #00ffff;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #00ffff;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.news-card {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #00ffff;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 900px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.news-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #00ffff;
+}
+
+.news-card p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
