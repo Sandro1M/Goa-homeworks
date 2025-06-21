@@ -27,9 +27,10 @@ else:
 # 4) 1-დან 100-მდე რიცხვების ლუწ/კენტობა while ციკლით (უიმე {}):
 
 i = 1
-while i <= 100:
+while i <= 100: input
     if i % 2 == 0:
         print(i, "ლუწია")
     else:
         print(i, "კენტია")
     i += 1
+    print(i-=1)
