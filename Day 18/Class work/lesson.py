@@ -9,3 +9,4 @@ print("integer:", integer)
 print("strings:", strings)
 print("floats:", folatebi)
 print("booleans:", boleans)
+
