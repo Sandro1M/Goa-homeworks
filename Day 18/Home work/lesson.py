@@ -13,6 +13,7 @@
 # floats = monacemebi[4:6] + monacemebi[12:14]
 # booleans = monacemebi[6:8] + monacemebi[14:16]
 
+
 # print("booleans:", booleans) --------დავალება 3
 
 

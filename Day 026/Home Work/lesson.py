@@ -1,0 +1,1 @@
+# jerjerobit davaleba ar uweria mere davwer 🤷‍♂️
