@@ -1,0 +1,60 @@
+.b1 {
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    width: 300px;
+}
+
+.b2 {
+    background-color: rgb(255, 0, 0);
+    height: 300px;
+    width: 300px;
+}
+
+.b3 {
+    background-color: rgb(0, 255, 0);
+    height: 300px;
+    width: 300px;
+}
+
+.a1 {
+    color: #000000;
+}
+
+.a2 {
+    color: #fff;
+}
+
+.a2 {
+    color: #f0f;
+}
+
+.a3 {
+    color: #0ff;
+}
+
+.a4 {
+    color: #00f;
+}
+
+.a5 {
+    color: #aba;
+}
+
+.w4 {
+    height: 200px;
+    width: 25%;
+    background-color: #000000;
+}
+
+.dad {
+    width: 50%;
+    height: 300px;
+    background-color: lightblue;
+}
+
+.kid {
+    width: 50%;
+    height: 50%;
+    background-color: coral;
+
+}
