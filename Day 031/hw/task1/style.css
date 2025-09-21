@@ -1,0 +1,19 @@
+.t1 {
+    color:blue;
+    text-shadow: 5px 5px 5px #ff0000;
+}
+.t2 {
+    color:red;
+    text-shadow: 7px 7px 10px #0000ff;
+}
+
+
+.t3 {
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #00ff00;
+}
+
+.t4 {
+    text-shadow: 4px 4px 6px #ff00ff;
+    color: #ff00ff;
+}

@@ -1,0 +1,17 @@
+.lower {
+    text-transform: lowercase;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}

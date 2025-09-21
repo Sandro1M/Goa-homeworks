@@ -1,0 +1,27 @@
+.animal_card {
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+    border: 5px solid #070848;
+    border-radius: 15%;
+    margin: 10px;
+}
+
+.imagelabel {
+    height: 40%;
+    width: 70%;
+    background-color: rgb(109, 109, 185);
+    border: 5px solid #636372;
+    border-radius: 15%;
+}
+
+.textlabel {
+    margin-top: 300px;
+    height: 80%;
+    width: 80%;
+    background-color: rgb(109, 109, 185);
+    border: 5px solid #636372;
+    border-radius: 15%;
+    text-decoration: dashed blue;
+    text-shadow: 3px 3px 5px rgb(26, 26, 26);
+}
