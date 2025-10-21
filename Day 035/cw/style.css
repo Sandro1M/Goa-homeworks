@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+ul {
+    list-style: upper-roman;
+    color: blue;
+}
+
+ol {
+    list-style: lower-alpha;
+    color: red;
+}
+
+#a1 {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#a1:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#a2 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#a2:hover {
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#a3 {
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#a3:hover {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px;
+}

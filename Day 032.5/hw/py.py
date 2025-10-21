@@ -1,1 +1,0 @@
-# davaleba ar gvqonda xutsabats ki momzadebuli viyavi
