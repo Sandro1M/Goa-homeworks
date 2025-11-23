@@ -1,14 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
     background-color: rgb(66, 210, 26);
 }
 
 .welcome {
     text-align: center;
-    margin-top: 20px;
     font-size: 24px;
     color: #111;
     height: 50px;
@@ -16,8 +14,6 @@
 
 .information p,a {
     display:flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     height: 100px;
     width: 600px;
@@ -31,8 +27,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    gap: 20px;
     padding: 20px;
 }
 
@@ -40,11 +34,9 @@
     background-image: url("https://yt3.googleusercontent.com/kWIyw-j1JzYqfBhw16B7HabH4YhrhOdb5d-r-80YGwS-QrId-apoaVvB00_6pidG0UL_6Li4=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj");
     height: 300px;
     width: 100%;
-    top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
     border: 3px solid rgb(18, 173, 28);
 }
 

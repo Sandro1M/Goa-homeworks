@@ -1,1 +1,2 @@
-# davaleba ar gvqonda xutsabats ki momzadebuli viyavi 
+# 1) კარგად მოემზადეთ ყველა გამოკითხვისთვის რომელიც იქნება ხუთშაბათს
+# momzadebuli viyavi

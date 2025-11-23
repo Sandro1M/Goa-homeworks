@@ -1,0 +1,1 @@
+# gavakete saklaso davaleba

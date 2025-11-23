@@ -1,0 +1,40 @@
+.all {
+    display: flex;
+    gap: 20px;
+}
+
+.papa {
+    width: 300px;
+    height: 300px;
+    border: 7px solid rgb(98, 98, 98);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.kid {
+    width: 60px;
+    height: 60px;
+    background-color: #ff6f5e;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 {
+    flex-direction: row;
+}
+
+#section2 {
+    flex-direction: column;
+}
+
+#section3 {
+    flex-direction: row-reverse;
+}
+
+#section4 {
+    flex-direction: column-reverse;
+}

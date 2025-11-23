@@ -1,1 +1,0 @@
-# gaketebulia mini lideris tvalwin

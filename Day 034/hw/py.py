@@ -1,0 +1,1 @@
+# mini lideris tandaswrebit maqvs davaleba gaketebuli bolomde sull

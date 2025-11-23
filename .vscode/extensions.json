@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "spikespaz.vscode-smoothtype"
+        "spikespaz.vscode-smoothtype",
+        "gental.smoothui"
     ]
 }

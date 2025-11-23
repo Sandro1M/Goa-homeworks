@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="ka">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>თევზების საიტი</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+        }
+
+        body {
+            background-color: #2992ef;
+            color: #003366;
+        }
+
+        header.i1 {
+            background-color: rgb(19, 19, 121);
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .i2 {
+            font-size: 50px;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        .a1 {
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .animal-card {
+            background-color: rgba(73, 17, 203, 0.644);
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            transition: transform 0.3s;
+        }
+
+        .animal-img {
+            width: 300px;
+            height: 100%;
+        }
+
+        .info {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .info h2 {
+            font-size: 28px;
+            color: #002244;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
+
 <body>
     <center>
         <header class="i1">
@@ -41,9 +109,7 @@
                 </div>
             </div>
         </main>
-        <footer class="e1">
-            <div class="e2">© 2025 ზღვის ბინადრების საიტი</div>
-        </footer>
     </center>
 </body>
+
 </html>
