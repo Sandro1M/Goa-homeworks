@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #F3EAE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    margin-top: 15vh;
+}
+
+.card {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 300px;
+    height: 400px;
+}
+
+.part2 {
+    width: 300px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.part2 h4 {
+
+    color: gray;
+    font-size: 12px;
+}
+
+.part2 h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.part2 p {
+    font-size: 14px;
+    color: gray;
+    line-height: 20px;
+}
+
+.twins {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.twins h1 {
+    color: #3D8168;
+    font-size: 28px;
+}
+
+.twins p {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    height: 45px;
+    background-color: #3D8168;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    height: 45px;
+    background-color: #1A4031;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
