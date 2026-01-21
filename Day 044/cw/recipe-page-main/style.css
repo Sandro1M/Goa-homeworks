@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3E5D8;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    padding: 10px;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+h2 {
+    color: #783822;
+}
+
+h3,
+h4,
+h5,
+p,
+td,
+th,
+li {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%)
+}
+
+.card {
+    background-color: white;
+    width: 600px;
+    height: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: inside;
+    text-align: start;
+    padding: 30px;
+}
+
+.all .card .img1 {
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+
+th {
+    border-bottom: solid;
+    border-bottom-width: 0.5px;
+}
+
+
+
+table {
+  width: 100%;
+}
+
+
+th,
+td {
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+th {
+  text-align: left;
+  font-weight: 400;
+  color: #5f564d;
+}
+
+td {
+  text-align: left;
+  color: #854632; 
+}
+
+
+.list1 {
+    background-color: #FFF7FC;
+    height: 120px;
+    padding: 20px;
+    border-radius: 15px;
+}

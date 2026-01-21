@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.A1 {
+    background-color: #36384d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.A2 {
+    background-color: #f8f6ff;
+    display: flex;
+    padding: 20px;
+    border-radius: 35px;
+    width: 900px;
+
+}
+
+
+.B1 {
+
+    padding: 10px;
+    color: #242742;
+}
+
+.C1 {
+    font-size: 55px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.C2 {
+    margin-bottom: 24px;
+
+}
+
+.C3 {
+    margin-bottom: 40px;
+}
+
+.C4 {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.C5 {
+    width: 20px;
+    height: 20px;
+}
+
+
+.D1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.D2 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.D3 {
+    padding: 16px;
+    border: 1px solid #9294a0;
+    border-radius: 8px;
+    margin-bottom: 24px;
+
+}
+
+
+
+.D4 {
+    background-color: #242742;
+    color: #ffffff;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+
+
+.B2 {
+    width: 400px;
+    height: 480px;
+    background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+    background-position: center;
+    border-radius: 15px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .A1 {
+        align-items: flex-start;
+    }
+
+    .A2 {
+        flex-direction: column-reverse;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .B1 {
+        padding: 40px 24px;
+    }
+
+    .C1 {
+        font-size: 40px;
+    }
+
+    .B2 {
+        background-size: cover;
+        height: 250px;
+        width: 100%;
+        background-image: url("./assets/images/illustration-sign-up-tablet.svg");
+        border-radius: 0px 0px 15px 15px;
+    }
+}
